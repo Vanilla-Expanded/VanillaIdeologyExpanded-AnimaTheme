@@ -24,7 +24,6 @@ namespace VIEAT
         static HarmonyInit()
         {
             Green = new ColorInt(143, 171, 156).ToColor;
-            Green = GenColor.FromHex("d09b61");
             LineMatGreen = MaterialPool.MatFrom(LineTexPath, ShaderDatabase.Transparent, Green);
             harmonyInstance = new Harmony("VIEAT.Mod");
             harmonyInstance.PatchAll();
