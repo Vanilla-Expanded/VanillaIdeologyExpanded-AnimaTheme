@@ -1,0 +1,347 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+
+    <Operation Class="PatchOperationReplace">
+        <xpath>Defs/FleckDef[defName="GauranlenLeaf"]/graphicData/color</xpath>
+        <value>
+			<color>(173, 208, 195, 255)</color>
+        </value>
+    </Operation>
+	
+    <Operation Class="PatchOperationReplace">
+        <xpath>Defs/FleckDef[defName="GauranlenLeaf"]/graphicData/texPath</xpath>
+        <value>
+			<texPath>Things/Mote/RitualEffects/AnimaLeaves/AnimaLeaf1</texPath>
+        </value>
+    </Operation>
+	
+	
+	
+    <Operation Class="PatchOperationReplace">
+        <xpath>Defs/ThingDef[defName="Plant_TreeGauranlen"]/label</xpath>
+        <value>
+			<label>Ancient Anima tree</label>
+        </value>
+    </Operation>
+	
+    <Operation Class="PatchOperationReplace">
+        <xpath>Defs/ThingDef[defName="Plant_TreeGauranlen"]/description</xpath>
+        <value>
+			<description>A large, distinctive-looking tree with a unique life-cycle, warm, skin-smooth bark and long iridescent leaves. Infused with bioluminescent micro-organisms, anima trees develop a unique form of psychic symbiosis with surrounding lifeforms. Each Ancient Anima tree contains a small non-conscious dryad queen. The queen births creatures called dryads which guard and tend the tree. In exchange, the tree nurtures its protectors by feeding them directly. From the outside, it appears the dryads are created by the tree directly and act as part of it.\n\nIt is possible for a person to form a connection with a tree and partially control the dryads it produces.\n\nSome say Ancient Anima trees are the homes of nature spirits that follow humanity across worlds. Tribal psycasters are also able to draw psyfocus from anima trees while meditating to them.\n\nAnima trees' psychic properties are weakened if artificial structures are placed nearby. They refuse to be caged or studied, and must remain part of nature.</description>
+        </value>
+    </Operation>
+	
+    <Operation Class="PatchOperationReplace">
+        <xpath>Defs/ThingDef[defName="Plant_MossGauranlen"]/label</xpath>
+        <value>
+			<label>Anima bush</label>
+        </value>
+    </Operation>
+	
+    <Operation Class="PatchOperationReplace">
+        <xpath>Defs/ThingDef[defName="Plant_MossGauranlen"]/description</xpath>
+        <value>
+			<description>Symbiotic bush infused with luminous microorganisms, often found growing around Ancient Anima trees.</description>
+        </value>
+    </Operation>
+	
+    <Operation Class="PatchOperationReplace">
+        <xpath>Defs/ThingDef[defName="Plant_PodGauranlen"]/label</xpath>
+        <value>
+			<label>Anima pod</label>
+        </value>
+    </Operation>
+	
+    <Operation Class="PatchOperationReplace">
+        <xpath>Defs/ThingDef[defName="Plant_PodGauranlen"]/description</xpath>
+        <value>
+			<description>A small pod that protects a single Anima seed. This seed can be harvested and used to plant an Ancient Anima tree.</description>
+        </value>
+    </Operation>
+	
+    <Operation Class="PatchOperationReplace">
+        <xpath>Defs/ThingDef[defName="GauranlenSeed"]/label</xpath>
+        <value>
+			<label>Anima seed</label>
+        </value>
+    </Operation>
+	
+    <Operation Class="PatchOperationReplace">
+        <xpath>Defs/ThingDef[defName="GauranlenSeed"]/description</xpath>
+        <value>
+			<description>The seed of an Ancient Anima tree. It can be planted to create a new Ancient Anima tree.</description>
+        </value>
+    </Operation>
+	
+    <Operation Class="PatchOperationReplace">
+        <xpath>Defs/ThingDef[defName="Dryad_Basic"]/description</xpath>
+        <value>
+			<description>Dryads are small mammalian creatures that have a symbiotic relationship with the Ancient Anima trees. This immature dryad can support and protect its tree, but its main purpose is to morph into more specialized and powerful dryad forms.</description>
+        </value>
+    </Operation>
+	
+    <Operation Class="PatchOperationReplace">
+        <xpath>Defs/ThingDef[defName="Dryad_Woodmaker"]/description</xpath>
+        <value>
+			<description>A slow, bumbling caste of dryad which specializes in wood production. Together with its Ancient Anima tree, this dryad can generate a wood-like material on an ongoing basis. However, it is slow and ineffective at work or combat.\n\nIn general, dryads are mammal-like creatures that have a symbiotic relationship with the Ancient Anima trees. They reproduce together with their tree, which contains a hidden dryad queen. Dryads can morph into various specialized castes.</description>
+        </value>
+    </Operation>
+	
+    <Operation Class="PatchOperationReplace">
+        <xpath>Defs/ThingDef[defName="Dryad_Berrymaker"]/description</xpath>
+        <value>
+			<description>A dryad caste specialized in food production. Together with its Ancient Anima tree, this dryad can generate nourishing berries on an ongoing basis. However, it is slow and ineffective at work or combat.\n\nIn general, dryads are mammal-like creatures that have a symbiotic relationship with the Ancient Anima trees. They reproduce together with their tree, which contains a hidden dryad queen. Dryads can morph into various specialized castes.</description>
+        </value>
+    </Operation>
+	
+    <Operation Class="PatchOperationReplace">
+        <xpath>Defs/ThingDef[defName="Dryad_Medicinemaker"]/description</xpath>
+        <value>
+			<description>A dryad caste specialized in medicine production. Together with its Ancient Anima tree, this dryad can generate medicinal herbs on an ongoing basis. However, it is slow and ineffective at work or combat.\n\nIn general, dryads are mammal-like creatures that have a symbiotic relationship with the Ancient Anima trees. They reproduce together with their tree, which contains a hidden dryad queen. Dryads can morph into various specialized castes.</description>
+        </value>
+    </Operation>
+	
+    <Operation Class="PatchOperationReplace">
+        <xpath>Defs/ThingDef[defName="Dryad_Gaumaker"]/description</xpath>
+        <value>
+			<description>A dryad caste with the unique ability to produce new Anima seed pods and reproduce the Ancient Anima tree along with its symbiote, the dryad queen. To do this, three seedmaker dryads must slowly merge.\n\nIn general, dryads are mammal-like creatures that have a symbiotic relationship with the Ancient Anima trees. They reproduce together with their tree, which contains a hidden dryad queen. Dryads can morph into various specialized castes.</description>
+        </value>
+    </Operation>
+	
+    <Operation Class="PatchOperationReplace">
+        <xpath>Defs/PawnKindDef[defName="Dryad_Gaumaker"]/label</xpath>
+        <value>
+			<label>seedmaker dryad</label>
+        </value>
+    </Operation>
+	
+    <Operation Class="PatchOperationReplace">
+        <xpath>Defs/ThingDef[defName="Dryad_Gaumaker"]/description</xpath>
+        <value>
+			<description>A dryad caste specialized in carrying items. Under human influence, it can help haul things where they need to go.\n\nIn general, dryads are mammal-like creatures that have a symbiotic relationship with the Ancient Anima trees. They reproduce together with their tree, which contains a hidden dryad queen. Dryads can morph into various specialized castes.</description>
+        </value>
+    </Operation>
+	
+    <Operation Class="PatchOperationReplace">
+        <xpath>Defs/ThingDef[defName="Dryad_Clawer"]/description</xpath>
+        <value>
+			<description>A dryad caste with huge claws that is specialized in aggression and damage-dealing attacks. Though it can do tremendous damage, it is vulnerable to attacks itself.\n\nIn general, dryads are mammal-like creatures that have a symbiotic relationship with the Ancient Anima trees. They reproduce together with their tree, which contains a hidden dryad queen. Dryads can morph into various specialized castes.</description>
+        </value>
+    </Operation>
+	
+    <Operation Class="PatchOperationReplace">
+        <xpath>Defs/ThingDef[defName="Dryad_Barkskin"]/description</xpath>
+        <value>
+			<description>A dryad caste specialized in absorbing hits during combat. Barkskin dryads are covered by a thick bark-like hide which is partly formed by the Anima tree itself. Under human influence, it can act as a damage-absorbing fighter.\n\nIn general, dryads are mammal-like creatures that have a symbiotic relationship with the Ancient Anima trees. They reproduce together with their tree, which contains a hidden dryad queen. Dryads can morph into various specialized castes.</description>
+        </value>
+    </Operation>
+	
+    <Operation Class="PatchOperationReplace">
+        <xpath>Defs/GauranlenTreeModeDef[defName="Carrier"]/description</xpath>
+        <value>
+			<description>A dryad caste specialized in carrying items. Under human influence, it can help haul things where they need to go.</description>
+        </value>
+    </Operation>
+	
+    <Operation Class="PatchOperationReplace">
+        <xpath>Defs/GauranlenTreeModeDef[defName="Clawer"]/description</xpath>
+        <value>
+			<description>A dryad caste specialized in aggression and damage-dealing attacks. The clawer dryad is named for its massive claws. Though it can do tremendous damage, it is vulnerable to attacks itself.</description>
+        </value>
+    </Operation>
+	
+    <Operation Class="PatchOperationReplace">
+        <xpath>Defs/GauranlenTreeModeDef[defName="Barkskin"]/description</xpath>
+        <value>
+			<description>A dryad caste specialized in absorbing hits during combat. Barkskin dryads are covered by a thick bark-like hide which is partly formed by the Anima tree itself. Under human influence, it can act as a damage-absorbing fighter.</description>
+        </value>
+    </Operation>
+	
+    <Operation Class="PatchOperationReplace">
+        <xpath>Defs/GauranlenTreeModeDef[defName="Woodmaker"]/description</xpath>
+        <value>
+			<description>A slow, bumbling caste of dryad which specializes in wood production. Together with its Ancient Anima tree, this dryad can generate a wood-like material on an ongoing basis. However, it is slow and ineffective at work or combat.</description>
+        </value>
+    </Operation>
+	
+    <Operation Class="PatchOperationReplace">
+        <xpath>Defs/GauranlenTreeModeDef[defName="Medicinemaker"]/description</xpath>
+        <value>
+			<description>A dryad caste specialized in medicine production. Together with its Ancient Anima tree, this dryad can generate medicinal herbs on an ongoing basis. However, it is slow and ineffective at work or combat.</description>
+        </value>
+    </Operation>
+	
+    <Operation Class="PatchOperationReplace">
+        <xpath>Defs/GauranlenTreeModeDef[defName="Berrymaker"]/description</xpath>
+        <value>
+			<description>A dryad caste specialized in food production. Together with its Ancient Anima tree, this dryad can generate nourishing berries on an ongoing basis. However, it is slow and ineffective at work or combat.</description>
+        </value>
+    </Operation>
+	
+    <Operation Class="PatchOperationReplace">
+        <xpath>Defs/GauranlenTreeModeDef[defName="Gaumaker"]/description</xpath>
+        <value>
+			<description>A dryad caste with the unique ability to produce new Gauranlen pods and reproduce the Gauranlen tree along with its symbiote, the dryad queen. To do this, three gaumaker dryads must slowly merge.</description>
+        </value>
+    </Operation>
+	
+    <Operation Class="PatchOperationReplace">
+        <xpath>Defs/GauranlenTreeModeDef[defName="Gaumaker"]/label</xpath>
+        <value>
+			<label>Seedmaker</label>
+        </value>
+    </Operation>
+	
+	
+	
+	
+	
+    <Operation Class="PatchOperationAdd">
+        <xpath>Defs/ThingDef[defName="Plant_TreeGauranlen"]/graphicData</xpath>
+        <value>
+			<drawSize>1.5</drawSize>
+        </value>
+    </Operation>
+	
+    <Operation Class="PatchOperationReplace">
+        <xpath>Defs/RitualAttachableOutcomeEffectDef[defName="GauranlenTreePod"]/label</xpath>
+        <value>
+			<label>Ancient Anima pod sprout</label>
+        </value>
+    </Operation>
+	
+    <Operation Class="PatchOperationReplace">
+        <xpath>Defs/RitualAttachableOutcomeEffectDef[defName="GauranlenTreePod"]/effectDesc</xpath>
+        <value>
+			<effectDesc>an Ancient Anima pod will sprout at a random location on the map, if it can.</effectDesc>
+        </value>
+    </Operation>
+	
+    <Operation Class="PatchOperationReplace">
+        <xpath>Defs/RitualAttachableOutcomeEffectDef[defName="GauranlenTreePod"]/letterInfoText</xpath>
+        <value>
+			 <letterInfoText>An Ancient Anima pod sprouted nearby.</letterInfoText>
+        </value>
+    </Operation>
+	
+    <Operation Class="PatchOperationReplace">
+        <xpath>Defs/PreceptDef[defName="GauranlenConnection_Strong"]/description</xpath>
+        <value>
+			 <description>We have a special connection with the Ancient Anima trees. The trees refocus production easily under our influence, and we are not satisfied unless we have that connection.</description>
+        </value>
+    </Operation>
+	
+    <Operation Class="PatchOperationReplace">
+        <xpath>Defs/PreceptDef[defName="GauranlenConnection_Strong"]/comps/li[@Class="PreceptComp_SituationalThought"]/thoughtStageDescriptions</xpath>
+        <value>
+			<thoughtStageDescriptions>
+				<li>Ancient Anima connection</li>
+				<li>Want Ancient Anima connection (min expectation: Very low)</li>
+				<li>Want Ancient Anima connection (min expectation: Low)</li>
+				<li>Want Ancient Anima connection (min expectation: Moderate)</li>
+				<li>Want Ancient Anima connection (min expectation: High)</li>
+				<li>Want Ancient Anima connection (min expectation: Sky high)</li>
+			</thoughtStageDescriptions>
+        </value>
+    </Operation>
+	
+    <Operation Class="PatchOperationAdd">
+        <xpath>Defs/ThingDef[defName="Plant_TreeGauranlen"]/comps</xpath>
+        <value>
+      <li Class="CompProperties_MeditationFocus">
+        <statDef>MeditationFocusStrength</statDef>
+        <focusTypes>
+          <li>Natural</li>
+        </focusTypes>
+        <offsets>
+          <li Class="FocusStrengthOffset_ArtificialBuildings">
+            <radius>22.9</radius>
+            <curve>
+              <points>
+                <li>(0,   0.0)</li>
+                <li>(5,  -0.08)</li>
+                <li>(10, -0.15)</li>
+                <li>(50, -0.3)</li>
+              </points>
+            </curve>
+          </li>
+          <li Class="FocusStrengthOffset_BuildingDefs">
+            <defs>
+              <AnimusStone>0.04</AnimusStone>
+              <NatureShrine_Small>0.02</NatureShrine_Small>
+              <NatureShrine_Large>0.02</NatureShrine_Large>
+            </defs>
+            <radius>9.9</radius>
+            <maxBuildings>4</maxBuildings>
+            <explanationKey>MeditationFocusPerAnimusStoneAndShrine</explanationKey>
+            <explanationKeyAbstract>MeditationFocusPerAnimusStoneAndShrineAbstract</explanationKeyAbstract>
+          </li>
+        </offsets>
+      </li>
+      <li Class="CompProperties_Glower">
+        <glowRadius>5.75</glowRadius>
+        <glowColor>(110,116,125,0)</glowColor>
+      </li>
+      <li Class="CompProperties_SpawnSubplant">
+        <compClass>CompSpawnSubplant</compClass>
+        <subplant>Plant_GrassAnima</subplant>
+        <spawnSound>AnimaTreeProgress</spawnSound>
+      </li>
+      <li Class="CompProperties_Psylinkable">
+        <requiredSubplantCountPerPsylinkLevel>
+          <li>20</li>
+          <li>20</li>
+          <li>20</li>
+          <li>20</li>
+          <li>20</li>
+          <li>20</li>
+        </requiredSubplantCountPerPsylinkLevel>
+        <requiredFocus>Natural</requiredFocus>
+        <linkSound>AnimaTreeLink</linkSound>
+        <enoughPlantsLetterLabel>About: Anima tree linking</enoughPlantsLetterLabel>
+        <enoughPlantsLetterText>The anima tree now has {0} anima grass around it. This is enough for a tribal person to begin their first linking ritual!\n\nThe linking ritual gives a level of psylink and the ability to use psychic powers. Upgrading to a higher level requires more grass at each level.\n\nThe anima grass requirements for linking rituals to upgrade psycasters are:\n\n{1}\n\nNote: Only those with the nature focus type can meditate to or link with anima trees. You can see a person's focus types by looking at their info card with the 'i' button.</enoughPlantsLetterText>
+      </li>
+      <li Class="CompProperties_GiveThoughtToAllMapPawnsOnDestroy">
+        <thought>AnimaScream</thought>
+        <message>The anima tree has died and emitted a disturbing psychic scream.</message>
+      </li>
+      <li Class="CompProperties_PlaySoundOnDestroy">
+        <sound>AnimaTreeScream</sound>
+      </li>
+      <li Class="CompProperties_SelfhealHitpoints">
+        <ticksPerHeal>2000</ticksPerHeal> <!-- 30 hp per day, must be a multiple of 2000, since plants have Long ticker -->
+      </li>
+      <li Class="CompProperties_ToggleDrawAffectedMeditationFoci" />
+        </value>
+    </Operation>
+	
+    <Operation Class="PatchOperationReplace">
+        <xpath>Defs/ThingDef[defName="Plant_MossGauranlen"]/plant</xpath>
+        <value>
+			<plant>
+					<fertilityMin>0.05</fertilityMin>
+					<fertilitySensitivity>0</fertilitySensitivity>
+					<sowMinSkill>0</sowMinSkill>
+					<growDays>5</growDays>
+					<visualSizeRange>0.5~1</visualSizeRange>
+					<topWindExposure>0.4</topWindExposure>
+					<allowAutoCut>false</allowAutoCut>
+					<wildClusterWeight>0</wildClusterWeight>
+					<maxMeshCount>9</maxMeshCount>
+					<dieFromToxicFallout>False</dieFromToxicFallout>
+			</plant>
+        </value>
+    </Operation>
+
+    <Operation Class="PatchOperationAdd">
+        <xpath>Defs/ThingDef[defName="Plant_TreeAnima"]/comps/li[@Class="CompProperties_SpawnSubplant"]</xpath>
+        <value>
+			<plantsToNotOverwrite>
+				<li>Plant_PodGauranlen</li>
+				<li>Plant_TreeGauranlen</li>
+				<li>Plant_MossGauranlen</li>
+			</plantsToNotOverwrite>
+        </value>
+    </Operation>
+
+</Patch>
