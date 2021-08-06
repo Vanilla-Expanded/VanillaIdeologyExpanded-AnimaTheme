@@ -181,7 +181,7 @@
     <Operation Class="PatchOperationReplace">
         <xpath>Defs/GauranlenTreeModeDef[defName="Gaumaker"]/description</xpath>
         <value>
-			<description>A dryad caste with the unique ability to produce new Gauranlen pods and reproduce the Gauranlen tree along with its symbiote, the dryad queen. To do this, three gaumaker dryads must slowly merge.</description>
+			<description>A dryad caste with the unique ability to produce new Ancient Anima pods and reproduce the Ancient Anima tree along with its symbiote, the dryad queen. To do this, three seedmaker dryads must slowly merge.</description>
         </value>
     </Operation>
 	
@@ -189,6 +189,27 @@
         <xpath>Defs/GauranlenTreeModeDef[defName="Gaumaker"]/label</xpath>
         <value>
 			<label>Seedmaker</label>
+        </value>
+    </Operation>
+	
+    <Operation Class="PatchOperationReplace">
+        <xpath>Defs/ThingDef[defName="DryadCocoon"]/description</xpath>
+        <value>
+			<description>A sphere of fibrous plant matter. A dryad inside is slowly morphing into a new form. Ancient Anima trees grow these spheres to help protect the dryads as they morph.</description>
+        </value>
+    </Operation>
+	
+    <Operation Class="PatchOperationReplace">
+        <xpath>Defs/ThingDef[defName="GaumakerCocoon"]/description</xpath>
+        <value>
+			<description>The result of the merging of several Seedmaker dryads, this symbiotic plant/animal pod is an essential part of the Ancient Anima life cycle. After some time, it will flower into a mature Ancient Anima pod which can be harvested to plant a new Ancient Anima tree.</description>
+        </value>
+    </Operation>
+	
+    <Operation Class="PatchOperationReplace">
+        <xpath>Defs/ThingDef[defName="GaumakerCocoon"]/label</xpath>
+        <value>
+			<label>Seedmaker pod</label>
         </value>
     </Operation>
 	
@@ -255,7 +276,7 @@
         </focusTypes>
         <offsets>
           <li Class="FocusStrengthOffset_ArtificialBuildings">
-            <radius>22.9</radius>
+            <radius>49.9</radius>
             <curve>
               <points>
                 <li>(0,   0.0)</li>
@@ -267,9 +288,9 @@
           </li>
           <li Class="FocusStrengthOffset_BuildingDefs">
             <defs>
-              <AnimusStone>0.04</AnimusStone>
-              <NatureShrine_Small>0.02</NatureShrine_Small>
-              <NatureShrine_Large>0.02</NatureShrine_Large>
+              <AnimusStone>0.01</AnimusStone>
+              <NatureShrine_Small>0.01</NatureShrine_Small>
+              <NatureShrine_Large>0.01</NatureShrine_Large>
             </defs>
             <radius>9.9</radius>
             <maxBuildings>4</maxBuildings>
