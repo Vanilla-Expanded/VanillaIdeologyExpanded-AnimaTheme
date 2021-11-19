@@ -301,6 +301,12 @@
             <compClass>CompSpawnSubplant</compClass>
             <subplant>Plant_GrassAnima</subplant>
             <spawnSound>AnimaTreeProgress</spawnSound>
+			<plantsToNotOverwrite>
+				<li>Plant_PodGauranlen</li>
+				<li MayRequire="Ludeon.RimWorld.Royalty">Plant_GrassAnima</li>
+				<li MayRequire="Ludeon.RimWorld.Royalty">Plant_TreeAnima</li>
+				<li>Plant_MossGauranlen</li>
+			</plantsToNotOverwrite>
          </li>
          <li Class="CompProperties_Psylinkable">
             <requiredSubplantCountPerPsylinkLevel>
