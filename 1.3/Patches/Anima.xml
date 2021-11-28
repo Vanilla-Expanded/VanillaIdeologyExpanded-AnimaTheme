@@ -263,77 +263,14 @@
    <Operation Class="PatchOperationAdd">
       <xpath>Defs/ThingDef[defName="Plant_TreeGauranlen"]/comps</xpath>
       <value>
-         <li Class="CompProperties_MeditationFocus">
-            <statDef>MeditationFocusStrength</statDef>
-            <focusTypes>
-               <li>Natural</li>
-            </focusTypes>
-            <offsets>
-               <li Class="FocusStrengthOffset_ArtificialBuildings">
-                  <radius>49.9</radius>
-                  <curve>
-                     <points>
-                        <li>(0,   0.0)</li>
-                        <li>(5,  -0.08)</li>
-                        <li>(10, -0.15)</li>
-                        <li>(50, -0.3)</li>
-                     </points>
-                  </curve>
-               </li>
-               <li Class="FocusStrengthOffset_BuildingDefs">
-                  <defs>
-                     <AnimusStone>0.01</AnimusStone>
-                     <NatureShrine_Small>0.01</NatureShrine_Small>
-                     <NatureShrine_Large>0.01</NatureShrine_Large>
-                  </defs>
-                  <radius>9.9</radius>
-                  <maxBuildings>4</maxBuildings>
-                  <explanationKey>MeditationFocusPerAnimusStoneAndShrine</explanationKey>
-                  <explanationKeyAbstract>MeditationFocusPerAnimusStoneAndShrineAbstract</explanationKeyAbstract>
-               </li>
-            </offsets>
-         </li>
          <li Class="CompProperties_Glower">
             <glowRadius>5.75</glowRadius>
             <glowColor>(110,116,125,0)</glowColor>
-         </li>
-         <li Class="CompProperties_SpawnSubplant">
-            <compClass>CompSpawnSubplant</compClass>
-            <subplant>Plant_GrassAnima</subplant>
-            <spawnSound>AnimaTreeProgress</spawnSound>
-			<plantsToNotOverwrite>
-				<li>Plant_PodGauranlen</li>
-				<li MayRequire="Ludeon.RimWorld.Royalty">Plant_GrassAnima</li>
-				<li MayRequire="Ludeon.RimWorld.Royalty">Plant_TreeAnima</li>
-				<li>Plant_MossGauranlen</li>
-			</plantsToNotOverwrite>
-         </li>
-         <li Class="CompProperties_Psylinkable">
-            <requiredSubplantCountPerPsylinkLevel>
-               <li>20</li>
-               <li>20</li>
-               <li>20</li>
-               <li>20</li>
-               <li>20</li>
-               <li>20</li>
-            </requiredSubplantCountPerPsylinkLevel>
-            <requiredFocus>Natural</requiredFocus>
-            <linkSound>AnimaTreeLink</linkSound>
-            <enoughPlantsLetterLabel>About: Anima tree linking</enoughPlantsLetterLabel>
-            <enoughPlantsLetterText>The anima tree now has {0} anima grass around it. This is enough for a tribal person to begin their first linking ritual!\n\nThe linking ritual gives a level of psylink and the ability to use psychic powers. Upgrading to a higher level requires more grass at each level.\n\nThe anima grass requirements for linking rituals to upgrade psycasters are:\n\n{1}\n\nNote: Only those with the nature focus type can meditate to or link with anima trees. You can see a person's focus types by looking at their info card with the 'i' button.</enoughPlantsLetterText>
-         </li>
-         <li Class="CompProperties_GiveThoughtToAllMapPawnsOnDestroy">
-            <thought>AnimaScream</thought>
-            <message>The anima tree has died and emitted a disturbing psychic scream.</message>
-         </li>
-         <li Class="CompProperties_PlaySoundOnDestroy">
-            <sound>AnimaTreeScream</sound>
          </li>
          <li Class="CompProperties_SelfhealHitpoints">
             <ticksPerHeal>2000</ticksPerHeal>
             <!-- 30 hp per day, must be a multiple of 2000, since plants have Long ticker -->
          </li>
-         <li Class="CompProperties_ToggleDrawAffectedMeditationFoci" />
       </value>
    </Operation>
    
