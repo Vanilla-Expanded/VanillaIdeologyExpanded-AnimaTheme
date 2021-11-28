@@ -261,6 +261,14 @@
    </Operation>
    
    <Operation Class="PatchOperationAdd">
+      <xpath>Defs/ThingDef[defName="Plant_TreeGauranlen"]/statBases</xpath>
+      <value>
+      <MeditationFocusStrength>0.28</MeditationFocusStrength>
+      <MeditationPlantGrowthOffset>0</MeditationPlantGrowthOffset>
+      </value>
+   </Operation>
+   
+   <Operation Class="PatchOperationAdd">
       <xpath>Defs/ThingDef[defName="Plant_TreeGauranlen"]/comps</xpath>
       <value>
          <li Class="CompProperties_Glower">
