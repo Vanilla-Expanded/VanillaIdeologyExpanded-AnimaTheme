@@ -271,6 +271,36 @@
    <Operation Class="PatchOperationAdd">
       <xpath>Defs/ThingDef[defName="Plant_TreeGauranlen"]/comps</xpath>
       <value>
+      <li Class="CompProperties_MeditationFocus">
+        <statDef>MeditationFocusStrength</statDef>
+        <focusTypes>
+          <li>Natural</li>
+        </focusTypes>
+        <offsets>
+          <li Class="FocusStrengthOffset_ArtificialBuildings">
+            <radius>9.9</radius>
+            <curve>
+              <points>
+                <li>(0,   0.0)</li>
+                <li>(5,  -0.08)</li>
+                <li>(10, -0.15)</li>
+                <li>(50, -0.3)</li>
+              </points>
+            </curve>
+          </li>
+          <li Class="FocusStrengthOffset_BuildingDefs">
+            <defs>
+              <AnimusStone>0.02</AnimusStone>
+              <NatureShrine_Small>0.01</NatureShrine_Small>
+              <NatureShrine_Large>0.01</NatureShrine_Large>
+            </defs>
+            <radius>9.9</radius>
+            <maxBuildings>4</maxBuildings>
+            <explanationKey>MeditationFocusPerAnimusStoneAndShrine</explanationKey>
+            <explanationKeyAbstract>MeditationFocusPerAnimusStoneAndShrineAbstract</explanationKeyAbstract>
+          </li>
+        </offsets>
+      </li>
          <li Class="CompProperties_Glower">
             <glowRadius>5.75</glowRadius>
             <glowColor>(110,116,125,0)</glowColor>
