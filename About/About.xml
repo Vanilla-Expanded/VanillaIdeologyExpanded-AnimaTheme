@@ -20,7 +20,7 @@ For obvious reasons this mod requires Royalty DLC and Ideology DLC.
 		</li>
 		<li>
 			<packageId>Ludeon.RimWorld.Royalty</packageId>
-			<displayName>Ideology</displayName>
+			<displayName>Royalty</displayName>
 		</li>
 		</modDependencies>
 	<loadAfter>
