@@ -59,7 +59,8 @@ namespace VIEAT
         }
     }
 
-    [HarmonyPatch(typeof(Command_Ritual), MethodType.Constructor, new Type[] { typeof(Precept_Ritual), typeof(TargetInfo), typeof(RitualObligation)})]
+    [HarmonyPatch(typeof(Command_Ritual), MethodType.Constructor, new Type[] {
+        typeof(Precept_Ritual), typeof(TargetInfo), typeof(RitualObligation), typeof(Dictionary<string, Pawn>)})]
     public static class Command_Ritual_Patch
     {
         public static void Postfix(Command_Ritual __instance)
