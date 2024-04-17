@@ -28,5 +28,10 @@ For obvious reasons this mod requires Royalty DLC and Ideology DLC.
 	</modDependencies>
 	<loadAfter>
 		<li>Ludeon.RimWorld.Ideology</li>
+		<li>VanillaExpanded.VTEXE</li>
 	</loadAfter>
+	<forceLoadAfter>
+		<li>Ludeon.RimWorld.Ideology</li>
+		<li>VanillaExpanded.VTEXE</li>
+	</forceLoadAfter>
 </ModMetaData>
