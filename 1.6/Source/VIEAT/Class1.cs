@@ -41,9 +41,19 @@ namespace VIEAT
             LineMatGreen = MaterialPool.MatFrom(LineTexPath, ShaderDatabase.Transparent, Green);
             harmonyInstance = new Harmony("VIEAT.Mod");
             harmonyInstance.PatchAll();
-            AccessTools.Field(typeof(Gizmo_PruningConfig), "StrengthTex").SetValue(null, SolidColorMaterials.NewSolidColorTexture(Green));
-            AccessTools.Field(typeof(Gizmo_PruningConfig), "StrengthHighlightTex").SetValue(null, SolidColorMaterials.NewSolidColorTexture(new ColorInt(173, 208, 195).ToColor));
-            AccessTools.Field(typeof(Gizmo_PruningConfig), "StrengthTargetTex").SetValue(null, SolidColorMaterials.NewSolidColorTexture(new ColorInt(102, 119, 102).ToColor));
+            RecolorTexture("StrengthTex", Green);
+            RecolorTexture("StrengthHighlightTex", new ColorInt(173, 208, 195).ToColor);
+            RecolorTexture("StrengthTargetTex", new ColorInt(102, 119, 102).ToColor);
+        }
+
+        private static void RecolorTexture(string fieldName, Color color)
+        {
+            // Patched draw methods may retain the original readonly texture reference.
+            var texture = (Texture2D)AccessTools.Field(typeof(Gizmo_PruningConfig), fieldName).GetValue(null);
+            for (int x = 0; x < texture.width; x++)
+                for (int y = 0; y < texture.height; y++)
+                    texture.SetPixel(x, y, color);
+            texture.Apply();
         }
     }
 
