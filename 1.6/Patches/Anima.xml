@@ -503,5 +503,33 @@
          <label>prune anima nexus trees</label>
       </value>
    </Operation>
+
+   <Operation Class="PatchOperationReplace">
+      <xpath>Defs/ThingDef[defName="ChoppedStump_Gauranlen"]/label</xpath>
+      <value>
+         <label>chopped anima nexus stump</label>
+      </value>
+   </Operation>
+
+   <Operation Class="PatchOperationReplace">
+      <xpath>Defs/ThingDef[defName="ChoppedStump_Gauranlen"]/description</xpath>
+      <value>
+         <description>A stump left behind after an anima nexus tree has been felled. The stump can be extracted but yields very little usable wood. Left outdoors, the stump will deteriorate in time.</description>
+      </value>
+   </Operation>
+
+   <Operation Class="PatchOperationReplace">
+      <xpath>Defs/ThingDef[defName="SmashedStump_Gauranlen"]/label</xpath>
+      <value>
+         <label>smashed anima nexus stump</label>
+      </value>
+   </Operation>
+
+   <Operation Class="PatchOperationReplace">
+      <xpath>Defs/ThingDef[defName="SmashedStump_Gauranlen"]/description</xpath>
+      <value>
+         <description>The remnants of an anima nexus tree destroyed by damage. It's ugly. The stump can be extracted but yields very little usable wood. Left outdoors, the stump will deteriorate in time.</description>
+      </value>
+   </Operation>
    
 </Patch>
