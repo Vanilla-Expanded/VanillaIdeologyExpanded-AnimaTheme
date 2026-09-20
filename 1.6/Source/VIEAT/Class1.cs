@@ -77,7 +77,7 @@ namespace VIEAT
         public static void Postfix(Command_Ritual __instance)
         {
             if (__instance.ritual.def == VIEAT_DefOf.TreeConnection && !__instance.disabled)
-{
+            {
                 __instance.defaultIconColor = HarmonyInit.Green;
             }
         }
