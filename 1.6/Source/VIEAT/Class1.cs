@@ -17,18 +17,12 @@ namespace VIEAT
     public static class VIEAT_DefOf
     {
         public static PreceptDef TreeConnection;
-        public static PreceptDef AnimaTreeLinking;
     }
 
     [StaticConstructorOnStartup]
     public static class HarmonyInit
     {
         public static Harmony harmonyInstance;
-
-        [TweakValue("0", 0, 255)] public static int colorR = 143;
-        [TweakValue("0", 0, 255)] public static int colorG = 171;
-        [TweakValue("0", 0, 255)] public static int colorB = 156;
-        [TweakValue("0", 0, 255)] public static int colorA = 255;
 
         public static readonly Color Green = new ColorInt(143, 171, 156, 255).ToColor;
 
