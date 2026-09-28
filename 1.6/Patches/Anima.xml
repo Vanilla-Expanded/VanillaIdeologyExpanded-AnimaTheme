@@ -7,7 +7,7 @@
          <color>(173, 208, 195, 255)</color>
       </value>
    </Operation>
-   
+    
    <Operation Class="PatchOperationReplace">
       <xpath>Defs/FleckDef[defName="GauranlenLeaf"]/graphicData/texPath</xpath>
       <value>
